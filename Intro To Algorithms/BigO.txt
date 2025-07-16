@@ -1,0 +1,17 @@
+**Big O**
+
+Big O notation is generally the worst-case scenario for a calculation of a algorithms speed.
+
+A variable within the notation, n , generally represents the number of operations within the algorithm.
+
+
+**Examples**
+O(1): Instant time
+O(lgn): Think of the speed of binary search 
+O(n): generally is based off of a iterative loop(linear time)
+O(nlgn): Think of faster sorting algorithms like merge sort and quicksort
+O(n^2): Based off of a double for loop generally. Think of algorithms like bubble/selection sort which parses the array twice to analyze all operations
+O(n!): Extremely slow algorithm based on the traveling salesman problem
+    -Basically seeing it as a distance problem where all possible options are considered to find which ever is the shortest. 
+        -A very simplified example could be finding a minimum within an unsorted array. You HAVE to look through the entire array incase there is another 
+        smaller number even though there could already be the minimum found. Factorial timing is the consideration of all possible outcomes
