@@ -21,7 +21,11 @@
 - Traverse using temp variable and adjusting temporary head value
 - Insertion within the middle of a list would be as easy as adjusting the address of a node to a new one and adjusting the new node to the next value of the old one 
     - Think of it as playing with train cars. To insert a new car in a new position you need to pull the others apart and connect the new one before reconnecting the old car
--Performance: Insertion: O(1) | Read: O(n)
+- Deletion within lists act in a similar way. Rather than finding where to insert something new you look to isolate a train car. By finding the reference the node to be deleted you are able to change it to connect 
+  to the node after it. This is generally handled by a couple dummy nodes acting as a copy of the original list to edit it. 
+- IMPORTANT NOTE: Use of dummy nodes is crucial to the operation of a linked list. If you traverse a list without one it will cause a loss of data due to the fact with traversals you will lose track of the head 
+  and then it's respective nodes.
+-Performance: Insertion: O(1) | Read: O(n) | Deletion O(1)
 **Arrays**
 
 - Sequential form of storing data
@@ -37,6 +41,6 @@
 - With insertions into the middle of an array generally all the indicies MUST be shifted which causes issues with performance for insertions. This is not much of an issue with basic insertions
   at the end of an array
 
-**Performance**: Insertion: O(n) | Read: O(1)
+**Performance**: Insertion: O(n) | Read: O(1) | Deletion O(n)
 
 
