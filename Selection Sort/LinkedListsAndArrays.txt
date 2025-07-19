@@ -44,3 +44,8 @@
 **Performance**: Insertion: O(n) | Read: O(1) | Deletion O(n)
 
 
+**Selection Sort Example**
+- Selection sort is a basic algorithm that looks to find the biggest/smallest number within an array then appends it to a fresh one
+- Think of it like trying to sort items from a pile into a box. You search for the biggest/smallest item then bring it over to the box/array.
+- This algorithm generally runs in O(n^2) due to the fact you need to account for all possibilities within the array.
+
