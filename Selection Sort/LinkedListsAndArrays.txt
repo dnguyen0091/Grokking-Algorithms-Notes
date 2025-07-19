@@ -10,6 +10,7 @@
 - Each value holds the address for its next node in memory
 - Takes up memory in non-sequential order (unlike arrays)
 - Keeps track of where every node is located
+    -This is handled by pointers which 'point' to an address of information. This is seen a lot more in lower-level code languages like C where memory is managed by the developer
 - **Limitation**: Each node only tracks the next node's address
 - Cannot immediately access a random node
 - Must traverse the list to find specific nodes
@@ -37,3 +38,5 @@
   at the end of an array
 
 **Performance**: Insertion: O(n) | Read: O(1)
+
+
