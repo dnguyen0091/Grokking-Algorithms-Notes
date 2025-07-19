@@ -1,0 +1,6 @@
+
+**Memory**
+Think of memory as a wall of lockers. It's a form of storage where you are given an address and space to store data. Though this is a basic way of interpreting things that 
+is the gist of the use of memory. The way memory is stored can be vastly different based on scenarios and what data structure it may call for.
+
+**Linked List and Arrays**
