@@ -3,4 +3,19 @@
 Think of memory as a wall of lockers. It's a form of storage where you are given an address and space to store data. Though this is a basic way of interpreting things that 
 is the gist of the use of memory. The way memory is stored can be vastly different based on scenarios and what data structure it may call for.
 
-**Linked List and Arrays**
+**Linked List**
+
+Linked lists have each of their values hold the address for it's next node within memory. This allows it to take up memory in a non sequential order like an array would while also keeping track of where every node is.
+This is it's deficit because each node only can keep track of the next node's address. This means that you cannot immediately access a random node, rather you would need to go traverse the list and find the node you are looking for.
+Think of it like waiting for you train in a subway. You cannot just hop on your car immediately you need to wait for others to pass before you can access your specific car. With linked lists generally you are given two things, the head of a list and the next 
+value. Using this you are able to traverse to the next values within a linked list by making a temp variable and adjusting the temporary head value.
+
+Insertion: O(1) Read:O(n)
+**Arrays**
+
+Arrays are a sequential form of storing data. This means that data in memory will be within a same sequence within memory. Think of it like going to a movie theatre with friends and it is packed. An array storing data would require your friends
+to all find a sequence of empty seats to be happy. But when that doesn't happen you would need to find another space within memory to satisfy this need. This is it's detriment compared to linked lists due to the fact linked lists are able to track their addresses
+even when separate. Though the sequential nature of an array within memory is it's strength due to the fact you know all the addresses an array may have leading to easier searches. Generally arrays will be 0-indexed based meaning that they start indexed at 0 rather than
+1.
+
+Insertion:O(n) Read:O(1)
