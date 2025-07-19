@@ -49,3 +49,11 @@
 - Think of it like trying to sort items from a pile into a box. You search for the biggest/smallest item then bring it over to the box/array.
 - This algorithm generally runs in O(n^2) due to the fact you need to account for all possibilities within the array.
 
+
+****TLDR****
+- Memory is just like a wall of lockers that stores information
+- Arrays and Linked lists are easy ways to store multiple elements
+- Within memory Linked lists are all over the place, but reference the next value's address in order to keep track of it's values
+- Link lists are best for insertions/deletions due to the fact all that would be needed is a restructuring in routing the address pointers of nodes
+- Within memory Arrays are all stored next to eachother
+- Arrays allow for quick reads due to their storage in memory and indexing
