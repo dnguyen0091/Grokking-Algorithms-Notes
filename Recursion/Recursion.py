@@ -21,3 +21,14 @@ def factorial(n):
         return n * factorial(n - 1)
 print("Factorial Result:", factorial(5))  # Output: 120
 
+#**Example: Infinite Loop**
+def infinite_loop(n):
+    if n == 0:  # Base case
+        return
+    else:  # Recursive case
+        infinite_loop(n + 1)
+
+#Uncomment the line below to see the infinite loop in action
+# infinite_loop(1)  # This will cause a stack overflow error due to infinite recursion
+
+#This code demonstrates the necessity for having a base case that works with the recursive case to prevent infinite recursion
