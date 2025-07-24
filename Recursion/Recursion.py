@@ -31,4 +31,13 @@ def infinite_loop(n):
 #Uncomment the line below to see the infinite loop in action
 # infinite_loop(1)  # This will cause a stack overflow error due to infinite recursion
 
-#This code demonstrates the necessity for having a base case that works with the recursive case to prevent infinite recursion
+#This code demonstrates the necessity for having a base case that works with the recursive case to prevent infinite 
+
+#**Stack**
+
+# A stack is a data structure that follows the Last In First Out (LIFO) principle.
+# Think of it like a stack of plates where you can only add or remove the top plate.
+    # The correct terminology is "push" to add an item to the stack and "pop" to remove the top item.
+# Generally within a stack you can only access the top item, which is the most recently added item.
+    #To interact with the top item you generally will need to pop it off the stack to access the data that is within memory.
+    #In some cases you can peek at the top item without removing it, but this is not always available in all stack implementations.
